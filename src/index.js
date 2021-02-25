@@ -5,10 +5,14 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Card from "./components/Card/index";
 import "bootstrap/dist/css/bootstrap.css";
+import App from "./components/App/index";
 
 const container = document.getElementById("root");
+// const container_styled = document.getElementById("root-styled");
 
 // ReactDOM.render(__QUE__,__DONDE__)
-ReactDOM.render(<Card></Card>, container);
+ReactDOM.render(<App></App>, container);
+
+// ReactDOM.render(__QUE__,__DONDE__)
+//ReactDOM.render(<CardStyled></CardStyled>, container_styled);
